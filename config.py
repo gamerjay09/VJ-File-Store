@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "28537678"))
 API_HASH = environ.get("API_HASH", "b286caf817b9811f1d2f8b3ac15eadf0")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://envs.sh/UgM.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7711232723').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "RebelStore_Bot") # without @
 PORT = environ.get("PORT", "8080")
